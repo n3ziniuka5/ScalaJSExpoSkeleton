@@ -7,6 +7,7 @@ object Styles extends InlineStyleSheetUniversal {
   val rootView = style(
     flex := 1,
     alignContent := "center",
+    alignItems := "center",
     justifyContent := "center"
   )
 }
